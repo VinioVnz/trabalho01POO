@@ -112,5 +112,12 @@ public class Animal {
         this.historico = historico;
     }
 
+    /**
+     * método para adicionar historico
+     * @param descricao
+     */
 
+     public void adicionarHistorico(String descricao){
+        historico += " | "+descricao;
+     }
 }

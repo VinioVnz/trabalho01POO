@@ -73,7 +73,7 @@ public class Tutor {
      * @throws IllegalArgumentException caso o telefone seja null
      */
     public void setTelefone(String telefone){
-        if(telefone == null){
+        if(telefone == null || telefone == ""){
             throw new IllegalArgumentException("Telefone não pode ser nullo!");
         }
         this.telefone = telefone;
